@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #631C80;
+
+}
+.padre{
+    width: 100%;
+    height: 90px;
+    padding: 20px;
+    background-image: url(/img/Fondosubt.jpg);
+}
+
+.subtitulo{
+    font-family: 'Wallpoet', cursive;
+    color: white;
+    text-align: center;
+}
+
+.titulo-esc{
+    position: sticky;
+    background-color: black;
+    border: 2px white;
+    width: 50%;
+    color: white;
+    font-family: 'Wallpoet', cursive;
+    font-size: 21px;
+    margin-top: 2%;
+    background-image: url(/img/Fondosubt.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.images{
+    width: 100px;
+    height: 100px;
+}
+
+.descrip{
+    font-size: 14px;
+    font-family: 'roboto';
+}
+
+.tab{
+    width: 60%;
+    justify-content: center;
+}
+
+.form{
+    background-color: rgb(0, 0, 0, 0.3);
+    color: white;
+    margin: 5%;
+    border: 3px solid black;
+    font-size: 17px;
+}
+
+h4{
+    text-shadow: 0 0 20px rgb(93, 60, 137), 0 0 20px rgb(93, 60, 137), 0 0 20px rgb(93, 60, 137), 0 0 20px rgb(93, 60, 137);
+    color: white;
+    text-align: center;
+    font-family: 'Wallpoet', cursive;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    height: 8%;
+    align-items: center;
+}

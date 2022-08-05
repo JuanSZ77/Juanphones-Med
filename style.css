@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #09BDAF;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.box:hover{
+    color: #09BDAF;
+}
+
+.h1{
+   font-size: 30px;
+   color: white;
+   font-family: 'Wallpoet', cursive;
+}
+
+.enlace{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.enlace:hover{
+    color: #807979;
+}
+
+.img-fluid{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+main{
+    margin-top: 30px;
+}
+
+.title1{
+    border: solid 10px white;
+    margin: 0 24%;
+    padding: 10px 0;
+    background-color: black;
+}
+
+.title2{
+    font-family: 'Wallpoet', cursive;
+    color:white;
+}
+
+.title3{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.card-c{
+    color: white;
+}
+
+.card-img-top{
+    height: 160px;
+}
+
+.footer1{
+    height: 100%;
+    padding: 5px 30px;
+}
+
+.footer2{
+    font-family: sans-serif;
+}
